@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Docker Container</title>
+</head>
+<body>
+    <h1>Create Docker Container</h1>
+    <form action="/containers" method="POST">
+        <label for="ram">RAM (in bytes):</label>
+        <input type="text" id="ram" name="ram" required><br><br>
+
+        <label for="cpu">CPU (in nano CPUs):</label>
+        <input type="text" id="cpu" name="cpu" required><br><br>
+
+        <label for="hostPort">Host Port:</label>
+        <input type="text" id="hostPort" name="hostPort" required><br><br>
+
+        <input type="submit" value="Create Container">
+    </form>
+</body>
+</html>
